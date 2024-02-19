@@ -1,0 +1,31 @@
+html {
+    font-family: sans-serif;
+    font-size: 200%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transition: background-color 0.25s;
+}
+
+h1, p, label {
+    margin: 10px 0;
+}
+
+input {
+    width: 100%;
+}
+
+input[type="range"] {
+    margin-bottom: 15px;
+}
+
+#red {
+    background: linear-gradient(to right, #000, #ff0000);
+}
+
+#green {
+    background: linear-gradient(to right, #000, #00ff00);
+}
+
+#blue {
+    background: linear-gradient(to right, #000, #0000ff);
+}
